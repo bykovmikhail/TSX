@@ -1,0 +1,25 @@
+.contacts {
+	margin-bottom: 3rem;
+	margin-left: 5rem;
+}
+.contacts a {
+	color: black;
+}
+.contacts__row {
+	display: flex;
+	flex-direction: column;
+}
+.contact__link {
+	margin-bottom: 1rem;
+}
+.contact__tel {
+}
+.contact__link:hover {
+	text-decoration: underline;
+	font-weight: 700;
+	
+}
+.contact__tel:hover{
+	text-decoration: underline;
+	font-weight: 700;
+}

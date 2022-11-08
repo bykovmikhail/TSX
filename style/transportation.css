@@ -1,0 +1,55 @@
+.transportation {
+	margin-bottom: 3rem;
+}
+
+.item__kind {
+}
+.kind__content {
+	display: flex;
+}
+.kind__img {
+	width: 400px;
+}
+.kind__img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.kind__text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 1rem;
+}
+.kind__text p {
+	font-size: 1.5rem;
+}
+.kind__title {
+	text-align: center;
+}
+.kind__title h2 {
+	font-size: 2rem;
+}
+
+@media (max-width: 981px) {
+	.kind__content {
+		flex-wrap: wrap;
+	}
+	.kind__text {
+		order: 2;
+	}
+	.kind__img {
+		order: 1;
+		margin: 0 auto;
+	}
+}
+@media (max-width: 481px) {
+	.kind__img {
+		width: 300px;
+	}
+}
+@media (max-width: 321px) {
+	.container {
+		width: 300px;
+	}
+}

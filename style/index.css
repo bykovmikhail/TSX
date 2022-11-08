@@ -1,0 +1,84 @@
+.body__index {
+	background: url(https://zastavok.net/main/priroda/163052618242.jpg) no-repeat;
+	background-size: 100% 100%;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.body__wrapper {
+	width: 60%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: var(--padding-block);
+	margin-bottom: var(--margin-block);
+	animation: body__wrapper;
+	animation-duration: 8500ms;
+	position: relative;
+}
+@keyframes body__wrapper {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+}
+.body__img {
+	margin-bottom: 50px;
+}
+.body__img img {
+	width: 200px;
+}
+
+.body__title {
+	font-size: 4rem;
+	color: rgb(255, 255, 255);
+	font-weight: 700;
+	text-shadow: 0 0 1px rgb(9, 9, 9);
+	text-align: center;
+}
+
+.body__wrapper:hover {
+	background-color: rgba(255, 255, 255, 0.138);
+	transition: 0.9s;
+	cursor: pointer;
+}
+.body__tel {
+	background-color: rgb(19, 84, 24);
+	width: 200px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	animation-duration: 1s;
+	animation-name: tel;
+}
+@keyframes tel {
+	0% {
+		top: 200px;
+	}
+	100% {
+		top: 0px;
+	}
+}
+.body__tel a {
+	color: rgb(250, 247, 247);
+	font-size: 16px;
+}
+.body__tel:hover {
+	background-color: rgb(146, 132, 49);
+	box-shadow: 3px 3px 5px black;
+	transition: 0.5s;
+}
+@media (max-width: 481px) {
+	.body__title {
+		font-size: 2rem;
+	}
+	.body__img img {
+		width: 150px;
+	}
+}
