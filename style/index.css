@@ -1,7 +1,9 @@
 .body__index {
 	background: url(https://zastavok.net/main/priroda/163052618242.jpg) no-repeat;
+	
 	background-size: 100% 100%;
 	width: 100%;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
